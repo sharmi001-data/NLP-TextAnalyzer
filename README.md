@@ -58,12 +58,12 @@ project-root/
    ```bash
    git clone https://github.com/your-username/textlens-insight.git
    cd textlens-insight
-  ```
-2. **Clone the repo:**
-```bash
+
+2. **Create and activate a virtual environment:**
+```
     python -m venv .venv
     .venv\Scripts\activate   # For Windows
- ```
+```
 # OR
 ```bash
 source .venv/bin/activate  # For Mac/Linux
