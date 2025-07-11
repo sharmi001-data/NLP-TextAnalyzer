@@ -60,12 +60,12 @@ project-root/
    git clone https://github.com/your-username/textlens-insight.git
    cd textlens-insight
   ```
-2. **Create and activate a virtual environment**
+2. **Create and activate a virtual environment:**
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate   # For Windows
-```
+   ```bash
+    python -m venv .venv
+    .venv\Scripts\activate   # For Windows
+   ```
 # OR
 ```bash
 source .venv/bin/activate  # For Mac/Linux
@@ -74,13 +74,11 @@ source .venv/bin/activate  # For Mac/Linux
 
 ```bash
 pip install -r requirements.txt
-Download spaCy English model:
 ```
 4.**Download spaCy English model**
 
 ```bash
 python -m spacy download en_core_web_sm
-Run the app:
 ```
 5.**Run the Streamlit app**
 
