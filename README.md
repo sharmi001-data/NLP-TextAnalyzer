@@ -43,7 +43,7 @@
 - **NLTK**
 
 ##  Project Structure
-
+'''text
 project-root/
 ├── app.py # Main Streamlit app
 ├── function.py # All preprocessing and model logic
@@ -51,8 +51,7 @@ project-root/
 ├── requirements.txt # Python dependencies
 ├── README.md # Project overview
 └── .venv/ # Virtual environment (ignored by Git)
-
-##  Setup Instructions
+'''
 
 ##  Setup Instructions
 
@@ -61,12 +60,14 @@ project-root/
    ```bash
    git clone https://github.com/your-username/textlens-insight.git
    cd textlens-insight
-
-
-
+   '''
+2. **Create and activate a virtual environment**
+'''bash
 python -m venv .venv
-.venv\Scripts\activate    # On Windows
-Install dependencies:
+.venv\Scripts\activate   # For Windows
+# OR
+source .venv/bin/activate  # For Mac/Linux
+'''
 
 
 pip install -r requirements.txt
