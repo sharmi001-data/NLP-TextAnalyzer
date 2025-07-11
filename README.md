@@ -54,11 +54,14 @@ project-root/
 
 ##  Setup Instructions
 
-1. Clone the repo:
-   ```
+##  Setup Instructions
+
+1. **Clone the repo:**
+
+   ```bash
    git clone https://github.com/your-username/textlens-insight.git
    cd textlens-insight
-Create and activate a virtual environment:
+
 
 
 python -m venv .venv
