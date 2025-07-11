@@ -43,7 +43,7 @@
 - **NLTK**
 
 ##  Project Structure
-'''
+```text
 project-root/
 ├── app.py # Main Streamlit app
 ├── function.py # All preprocessing and model logic
@@ -62,7 +62,7 @@ project-root/
   
 2. **Create and activate a virtual environment**
 
-'''bash
+```bash
 python -m venv .venv
 .venv\Scripts\activate   # For Windows
 # OR
@@ -70,19 +70,19 @@ source .venv/bin/activate  # For Mac/Linux
 
 3.**Install all dependencies**
 
-'''bash
+```bash
 pip install -r requirements.txt
 Download spaCy English model:
 
 4.**Download spaCy English model**
 
-'''bash
+```bash
 python -m spacy download en_core_web_sm
 Run the app:
 
 5.**Run the Streamlit app**
 
-'''bash
+```bash
 streamlit run app.py
 
 Made with ❤️ by Sharmistha Das
