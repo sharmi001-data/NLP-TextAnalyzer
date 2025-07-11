@@ -65,7 +65,9 @@ project-root/
 ```bash
 python -m venv .venv
 .venv\Scripts\activate   # For Windows
+```
 # OR
+```bash
 source .venv/bin/activate  # For Mac/Linux
 ```
 3.**Install all dependencies**
