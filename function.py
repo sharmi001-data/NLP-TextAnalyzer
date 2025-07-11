@@ -1,4 +1,3 @@
-# ✅ function.py
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import streamlit as st
